@@ -1,0 +1,32 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-image: url(table.png);
+    background-size:cover;
+    color:aliceblue;
+    font-weight: bold;
+  }
+  
+  h1{
+      color:goldenrod
+  }
+  
+  #message-el{
+      font-style: italic;
+  }
+  
+  button{
+      color: #016f32;
+      width: 150px;
+      background-color: goldenrod;
+      padding: 5px 0;
+      font-weight: bold;
+      border-style: none;
+      border-radius: 2px;
+  
+      /*3.Make sure that the two buttons have some space between 
+      each other when they are rendered out vertically*/
+      margin-top: 4px;
+      margin-bottom: 4px;
+  }
+  
